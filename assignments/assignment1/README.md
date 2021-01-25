@@ -5,7 +5,7 @@ Due Date: Wednesday, Feb. 3, 2021 @ 11:59pm <br>
 ### Assignment Overview
 
 In this assignment you will profile the overall structure of the genomes of several important species and then study the yeast genome in more detail.
-As a reminder, any questions about the assignment should be posted to [Piazza](https://piazza.com/class/kkbggatvarnj0)
+As a reminder, any questions about the assignment should be posted to [Piazza](https://piazza.com/class/kkbggatvarnj0).
 
 ### Question 1: Chromosome structures
 
@@ -46,17 +46,16 @@ Download the human chromosome 22 from here: [http://schatz-lab.org/appliedgenomi
 - You may wish to try out [datamash](https://www.gnu.org/software/datamash/)
 - You may find [samtools](http://www.htslib.org/) and especially `samtools faidx` helpful for indexing the fasta files
 - Plotting can be done in any language; R or Python are recommended; Excel is okay but ugly :-P
-- The final PDF can be made in any system: Markdown, Word, Google Docs, LaTeX, HTML
-- Be sure to clearly mark each question and subquestion
 - Mac and Linux can use the builtin terminal
 - If you are using Windows, you may want to install [Ubuntu for Windows](https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows#0)
-
+- The final PDF can be made in any system: Markdown, Word, Google Docs, LaTeX, HTML
+- Be sure to clearly mark each question and subquestion
 
 ### Packaging
 
 The solutions to the above questions should be submitted as a single PDF document that includes your name, email address, and 
 all relevant figures (as needed). Make sure to clearly label each of the subproblems and give the exact commands and/or code snippets you used for 
-solving the question. You do not need to show code for plotting. Submit your solutions by uploading the PDF to [GradeScope](https://www.gradescope.com/courses/85808). The Entry Code is: MR652Z 
+solving the question. You do not need to show code for plotting. Submit your solutions by uploading the PDF to [GradeScope](https://www.gradescope.com/courses/236625), and remember to select where in your submission each question/subquestion is. The Entry Code is: 86KZZP. 
 
 If you submit after this time, you will start to use up your late days. Remember, you are only allowed 96 hours (4 days) for the entire semester!
 
