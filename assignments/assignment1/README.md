@@ -4,7 +4,7 @@ Due Date: Wednesday, Feb. 3, 2021 @ 11:59pm <br>
 
 ### Assignment Overview
 
-In this assignment you will profile the overall structure of the genomes of several important species and then study the yeast genome in more detail.
+In this assignment you will profile the overall structure of the genomes of several important species and then study human chromosome 22 in more detail.
 As a reminder, any questions about the assignment should be posted to [Piazza](https://piazza.com/class/kkbggatvarnj0).
 
 ### Question 1: Chromosome structures
