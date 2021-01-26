@@ -34,10 +34,10 @@ Using these files, make a table with the following information per species:
 Download the human chromosome 22 from here: [http://schatz-lab.org/appliedgenomics2021/assignments/assignment1/chr22.fa.gz](http://schatz-lab.org/appliedgenomics2021/assignments/assignment1/chr22.fa.gz)
 
 - Question 2.1. How many As, Cs, Gs, Ts and Ns are found in the entire chromosome?
-- Question 2.2. What fraction of the 100bp non-overlapping windows across chromosome 22 contain at least one N?
-- Question 2.3. Make a scatterplot of the %GC of 100bp non-overlapping windows across the chromosome: x-axis = chromosome location, y-axis = (#G + #C) / 100.
-- Question 2.4. Make a histogram of the number of bins of a given %GC: x-axis = %GC, y-axis = # bins with this %GC. You should use the same 100bp bins as Q2.2 and Q2.3.
-- Question 2.5. Recall that Illumina sequencing performs poorly when the %GC is <= 30% or >= 65%. Based on the analysis from Q2.3, what fraction of the chromosome do you expect to sequence poorly?
+- Question 2.2. What fraction of the 100bp non-overlapping windows/bins across chromosome 22 contain at least one N?
+- Question 2.3. Make a scatterplot of the %GC of 100bp non-overlapping windows across the chromosome: x-axis = chromosome location, y-axis = (#G + #C) / 100. Only include windows that do not contain any Ns.
+- Question 2.4. Make a histogram of the number of bins of a given %GC: x-axis = %GC, y-axis = # bins with this %GC. You should use the same 100bp windows/bins as Q2.3 (i.e. windows that do not contain any Ns). 
+- Question 2.5. Recall that Illumina sequencing performs poorly when the %GC is <= 30% or >= 65%. Based on what you saw in Q2.3 and 2.4, what fraction of those bins (that do not contain any Ns) do we expect to sequence poorly?
 
 
 ### Hints
