@@ -38,6 +38,7 @@ Download the human chromosome 22 from here: [http://schatz-lab.org/appliedgenomi
 - Question 2.3. Make a scatterplot of the %GC of 100bp non-overlapping windows across the chromosome: x-axis = chromosome location, y-axis = (#G + #C) / 100. Only include windows that do not contain any Ns.
 - Question 2.4. Make a histogram of the number of bins of a given %GC: x-axis = %GC, y-axis = # bins with this %GC. You should use the same 100bp windows/bins as Q2.3 (i.e. windows that do not contain any Ns). 
 - Question 2.5. Recall that Illumina sequencing performs poorly when the %GC is <= 30% or >= 65%. Based on what you saw in Q2.3 and 2.4, what fraction of those bins (that do not contain any Ns) do we expect to sequence poorly?
+- Question 2.6. Assuming the rest of the human genome has the same sequence composition as chromosome 22, how many bases of the human genome do we expect to sequence poorly? Hint: extrapolate the results from 2.5 to the size of the whole genome computed in 1.1.
 
 
 ### Hints
