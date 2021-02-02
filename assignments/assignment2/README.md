@@ -43,7 +43,7 @@ otherwise your analysis will not correctly account for the fact that your reads 
 
 #### Question 3. De novo assembly [20 pts]
 
-Assemble the reads using `Spades`. Spades will *not* run on Windows (and possibly Mac), you must use a linux environment. 
+Assemble the reads using `Spades`. Spades will *not* run on Windows, you must use a linux/mac environment. 
 
 - Question 3a. How many contigs were produced? [Hint: try `grep -c '>' contigs.fasta`]
 - Question 3b. What is the total length of the contigs? [Hint: try `samtools faidx`, plus a short script/excel]
