@@ -9,7 +9,7 @@ secret message encoded someplace in the genome. The secret message will be recog
 of sequence not found in the reference. Your task is to assess the quality of the reads, assemble the genome, 
 identify, and decode the secret message. If all goes well the secret message should decode into a recognizable 
 english text, otherwise doublecheck your coordinates and try again. As a reminder, any questions about the assignment 
-should be posted to [Piazza](https://piazza.com/class/kkbggatvarnj0)
+should be posted to [Piazza](https://piazza.com/class/kkbggatvarnj0).
 
 Some of the tools you will need to use only run in a linux or mac environment. 
 If you do not have access to a linux/mac machine, download and install a virtual 
@@ -52,7 +52,7 @@ Assemble the reads using `Spades`. Spades will *not* run on Windows, you must us
 
 #### Question 4. Whole Genome Alignment [20 pts]
 
-- Question 4a. What is the average identify of your assembly compared to the reference? [Hint: try `dnadiff`]
+- Question 4a. What is the average identity of your assembly compared to the reference? [Hint: try `dnadiff`]
 - Question 4b. What is the length of the longest alignment [Hint: try `nucmer` and `show-coords`]
 - Question 4c. How many insertions and deletions are in the assembly? [Hint: try `dnadiff`]
 
