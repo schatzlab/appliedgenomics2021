@@ -2,6 +2,8 @@
 Assignment Date: Wednesday, Feb. 10, 2020 <br>
 Due Date: Wednesday, Feb. 17, 2020 @ 11:59pm <br>
 
+(We are still finalizing this question - stay tuned for the final version!)
+
 ### Assignment Overview
 
 In this assignment you will take a closer look at coverage, build and analyze a simple de Bruijn graph, and write your own compact de Bruijn graph generator that you will test on a small microbial genome.
@@ -47,7 +49,36 @@ TTGAT
 
 ### Question 3. More de Bruijn Graphs [25 pts]
 
-Coming soon!
+For this question, you will have to create a simple compact de Bruijn graph generator, and apply it to the Staphylococcus aureus reference genome to answer the questions below.
+
+Download the Staphylococcus aureus reference genome here: https://github.com/schatzlab/appliedgenomics2021/raw/master/assignments/assignment3/Staphylococcus_aureus.fna.gz.
+
+We have also provided a shorter sequence (of length 10,000 bp) that we have used to answer the questions below. You can use it to verify that your implementation is correct (by running it on this shorter sequence, and comparing your answers to ours), before answering the questions below about the Staphylococcus aureus genome. You can download this shorter sequence here: https://github.com/schatzlab/appliedgenomics2021/raw/master/assignments/assignment3/sample.fna.
+
+For this question, we are not grading your code, but please include it in your submission so that we can give you partial credit if one of your answers is incorrect. 
+
+- Q3a. Using k = 25, how many nodes are there in the simple de Bruijn graph generated from Staphylococcus aureus? How many edges are there? [Hint: Start by breaking the genome down into k-mers, get all your edges and nodes, and maintain some simple data structures to tie them together - this is all you have to do to get a simple de Bruijn graph!]
+
+- Q3b. The out-degree of a node is the number of directed edges that start at the node. Plot a histogram of the distribution of out-degrees in your de Bruijn graph. [Hint: Use the nodes and edges you identified in 3a, and get a count of how many nodes have out degree 0, 1, ..., n.]
+
+- Q3c. Recall that an edge can be compacted if the node is starts from has out-degree = 1, and the node it ends at has in-degree = 1. In the de Bruijn graph of Staphylococcus aureus, how many such "compactable" edges are there?
+
+- Q3d. Compact any of the edges that can be compacted. How many nodes and edges are there now? What is are the minimum and maximum lengths of a sequence that can be obtained from the de Bruijn graph? What is the N50 length?
+
+- Q3e. Repeat question 3d for k = 50 and k = 100.
+
+
+### Expected Output for sample.fna
+
+Here are the answers that we expect when using sample.fna (instead of the Staphylococcus aureus reference genome) - please use this to verify the correctness of your code.
+
+- 3a: # Nodes = X, # Edges = X.
+- 3b: Plot
+- 3c: # Compactable edges = X.
+- 3d and 3e:
+	- k = 25: # Nodes = X, # Edges = X, Min Length = X, Max Length = X, N50 Length = X.
+	- k = 50: # Nodes = X, # Edges = X, Min Length = X, Max Length = X, N50 Length = X.
+	- k = 100: # Nodes = X, # Edges = X, Min Length = X, Max Length = X, N50 Length = X.
 
 
 ### Packaging
