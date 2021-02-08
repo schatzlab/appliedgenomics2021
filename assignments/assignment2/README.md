@@ -50,7 +50,7 @@ Assemble the reads using `Spades`. Spades will *not* run on Windows, you must us
 - Question 3c. What is the size of your large contig? [Hint: check `samtools faidx` plus `sort -n`]
 - Question 3d. What is the contig N50 size? [Hint: Write a short script, or use excel]
 
-#### Question 4. Whole Genome Alignment [20 pts]
+#### Question 4. Whole Genome Alignment [15 pts]
 
 - Question 4a. What is the average identity of your assembly compared to the reference? [Hint: try `dnadiff`]
 - Question 4b. What is the length of the longest alignment [Hint: try `nucmer` and `show-coords`]
