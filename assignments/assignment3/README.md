@@ -2,8 +2,6 @@
 Assignment Date: Wednesday, Feb. 10, 2020 <br>
 Due Date: Wednesday, Feb. 17, 2020 @ 11:59pm <br>
 
-(We are still finalizing this question - stay tuned for the final version!)
-
 ### Assignment Overview
 
 In this assignment you will take a closer look at coverage, build and analyze a simple de Bruijn graph, and write your own compact de Bruijn graph generator that you will test on a small microbial genome.
