@@ -49,9 +49,9 @@ TTGAT
 
 For this question, you will have to create a simple compact de Bruijn graph generator, and apply it to the Staphylococcus aureus reference genome to answer the questions below.
 
-Download the Staphylococcus aureus reference genome here: https://github.com/schatzlab/appliedgenomics2021/raw/master/assignments/assignment3/Staphylococcus_aureus.fna.gz.
+Download the Staphylococcus aureus reference genome here: https://github.com/schatzlab/appliedgenomics2021/raw/master/assignments/assignment3/Staphylococcus_aureus.fna.gz. The genome is about 2.8 Mbp in length, but you still should easily be able to process it on a laptop.
 
-We have also provided a shorter sequence (of length 10,000 bp) that we have used to answer the questions below. You can use it to verify that your implementation is correct (by running it on this shorter sequence, and comparing your answers to ours), before answering the questions below about the Staphylococcus aureus genome. You can download this shorter sequence here: https://github.com/schatzlab/appliedgenomics2021/raw/master/assignments/assignment3/sample.fna.
+We have also provided a shorter sequence (of length 100,000 bp) that we have used to answer the questions below. You can use it to verify that your implementation is correct (by running it on this shorter sequence, and comparing your answers to ours), before answering the questions below about the Staphylococcus aureus genome. You can download this shorter sequence here: https://github.com/schatzlab/appliedgenomics2021/raw/master/assignments/assignment3/sample.fna.
 
 For this question, we are not grading your code, but please include it in your submission so that we can give you partial credit if one of your answers is incorrect. 
 
