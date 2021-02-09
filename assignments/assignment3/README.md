@@ -56,7 +56,7 @@ For this question, please make sure to include your code in your submission so t
 
 - Q3a. Using k = 25, how many nodes are there in the simple de Bruijn graph generated from Staphylococcus aureus? How many edges are there? [Hint: Start by breaking the genome down into k-mers to determine all of your edges and nodes, and maintain some simple data structures (hash table, dictionary, etc) to tie them together - this is all you have to do to get a simple de Bruijn graph! Note you should construct a simple graph, with at most 1 edge between a pair of nodes, even if their sequences are repeated multiple times in the genome]
 
-- Q3b. The out-degree of a node is the number of directed edges that start at the node. Plot a histogram of the distribution of out-degrees in your de Bruijn graph. [Hint: Use the nodes and edges you identified in 3a, and get a count of how many nodes have out degree 0, 1, ..., n.]
+- Q3b. The out-degree of a node is the number of directed edges that start at the node, and the in-degree of a node is the number of directed edges that end at the node. Plot one histogram of the distribution of out-degrees in your de Bruijn graph, and another of the distribution of in-degrees in your de Bruijn graph. [Hint: Use the nodes and edges you identified in 3a, and get a count of how many nodes have out degree/in degree 0, 1, ..., n.]
 
 - Q3c. Recall that an edge can be compacted if the node is starts from has out-degree = 1, and the node it ends at has in-degree = 1. In the de Bruijn graph of Staphylococcus aureus, how many such "compactable" edges are there?
 
@@ -69,11 +69,20 @@ For this question, please make sure to include your code in your submission so t
 
 Here are the answers that we expect when using sample.fna (instead of the Staphylococcus aureus reference genome) - please use this to verify the correctness of your code.
 
-- 3a: Number of nodes = 99219, Number of edges = 99975 (99254 distinct edges).
+- 3a: Number of nodes = 99219, Number of edges = 99254 distinct edges.
 
 - 3b:
 
 | Out-Degree | # Nodes |
+|------------|---------|
+| 0          | 1       |
+| 1          | 98558   |
+| 2          | 571     |
+| 3          | 81      |
+| 4          | 8       |
+
+
+| In-Degree | # Nodes |
 |------------|---------|
 | 0          | 1       |
 | 1          | 98558   |
