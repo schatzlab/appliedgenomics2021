@@ -93,9 +93,13 @@ Here are the answers that we expect when using sample.fna (instead of the Staphy
 - 3c: Number of compactable edges = 98498.
 
 - 3d and 3e:
-	- k = 25: # Nodes = 721, # Edges = 756, Min Length = X, Max Length = X, N50 Length = X.
-	- k = 50: # Nodes = 237, # Edges = 244, Min Length = X, Max Length = X, N50 Length = X.
-	- k = 100: # Nodes = 28, # Edges = 29, Min Length = X, Max Length = X, N50 Length = X.
+
+| k   | Nodes | Edges | Min Length | Max Length | N50 |
+|-----|-------|-------|------------|------------|-----|
+| 25  | 721   | 756   |            |            |     |
+| 50  | 237   | 244   |            |            |     |
+| 100 | 28    | 29    |            |            |     |
+
 
 
 ### Packaging
