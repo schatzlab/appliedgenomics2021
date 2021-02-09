@@ -70,9 +70,18 @@ For this question, we are not grading your code, but please include it in your s
 
 Here are the answers that we expect when using sample.fna (instead of the Staphylococcus aureus reference genome) - please use this to verify the correctness of your code.
 
-- 3a: # Nodes = X, # Edges = X.
-- 3b: Plot
-- 3c: # Compactable edges = X.
+- 3a: Number of nodes = 99219, Number of edges = 99975 (99254 distinct edges).
+- 3b:
+
+| Out-Degree | # Nodes |
+|------------|---------|
+| 0          | 1       |
+| 1          | 98558   |
+| 2          | 571     |
+| 3          | 81      |
+| 4          | 8       |
+
+- 3c: Number of compactable edges = 98497.
 - 3d and 3e:
 	- k = 25: # Nodes = X, # Edges = X, Min Length = X, Max Length = X, N50 Length = X.
 	- k = 50: # Nodes = X, # Edges = X, Min Length = X, Max Length = X, N50 Length = X.
