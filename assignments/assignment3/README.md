@@ -69,7 +69,7 @@ For this question, please make sure to include your code in your submission so t
 
 Here are the answers that we expect when using sample.fna (instead of the Staphylococcus aureus reference genome) - please use this to verify the correctness of your code.
 
-- 3a: Number of nodes = 99219, Number of edges = 99254 distinct edges.
+- 3a: Number of nodes = 99219, Number of edges = 99254.
 
 - 3b:
 
