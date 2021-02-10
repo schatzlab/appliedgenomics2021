@@ -1,10 +1,10 @@
-## Assignment 3: Coverage, Genome Assembly, and Variant Calling
+## Assignment 3: Coverage, Genome Assembly, and de Bruijn Graphs
 Assignment Date: Wednesday, Feb. 10, 2020 <br>
 Due Date: Wednesday, Feb. 17, 2020 @ 11:59pm <br>
 
 ### Assignment Overview
 
-In this assignment you will take a closer look at coverage, build and analyze a simple de Bruijn graph, and write your own compacted de Bruijn graph generator that you will test on a small microbial genome.
+In this assignment you will take a closer look at coverage, build and analyze a simple de Bruijn graph, and write your own compacted de Bruijn graph generator that you will test on a small microbial genome using different length kmers.
 
 As a reminder, any questions about the assignment should be posted to [Piazza](https://piazza.com/class/kkbggatvarnj0).
 
@@ -54,15 +54,17 @@ We have also provided a shorter sequence (of length 100,000 bp) that we have use
 
 For this question, please make sure to include your code in your submission so that we can give you partial credit if one of your answers is incorrect. 
 
-- Q3a. Using k = 25, how many nodes are there in the simple de Bruijn graph generated from Staphylococcus aureus? How many edges are there? [Hint: Start by breaking the genome down into k-mers to determine all of your edges and nodes, and maintain some simple data structures (hash table, dictionary, etc) to tie them together - this is all you have to do to get a simple de Bruijn graph! Note you should construct a simple graph, with at most 1 edge between a pair of nodes, even if their sequences are repeated multiple times in the genome]
+- Q3a. Using k = 25 (meaning the length of the sequence on each node should be 25 bp), how many nodes are there in the simple de Bruijn graph generated from Staphylococcus aureus? How many edges are there? [Hint: Start by breaking the genome down into k-mers to determine all of your edges and nodes, and maintain some simple data structures (hash table, dictionary, etc) to tie them together - this is all you have to do to get a simple de Bruijn graph! Note you should construct a simple graph, with at most 1 edge between a pair of nodes, even if their sequences are repeated multiple times in the genome]
 
-- Q3b. The out-degree of a node is the number of directed edges that start at the node, and the in-degree of a node is the number of directed edges that end at the node. Make a table and plot a histogram of the distribution of out-degrees in your de Bruijn graph, and another table and plot of the distribution of in-degrees in your de Bruijn graph. [Hint: Use the nodes and edges you identified in 3a, and get a count of how many nodes have out degree/in degree 0, 1, ..., n.]
+- Q3b. The out-degree of a node is the number of directed edges that start at the node, and the in-degree of a node is the number of directed edges that end at the node. Make a table and plot a histogram of the distribution of out-degrees in your de Bruijn graph, and another table and plot of the distribution of in-degrees in your de Bruijn graph. [Hint: Use the nodes and edges you identified in 3a, and get a count of how many nodes have out degree/in degree 0, 1, ..., n.] [Hint 2: What is the maximum degree possible in a simple de Bruijn graph constructed from the DNA characters ACGT]
 
 - Q3c. Recall that an edge can be compacted if the node is starts from has out-degree = 1, and the node it ends at has in-degree = 1. In the de Bruijn graph of Staphylococcus aureus, how many such "compactable" edges are there?
 
 - Q3d. Compact all of the edges that can be compacted. How many nodes and edges are there now? What is are the minimum and maximum lengths of a sequence that can be obtained from the de Bruijn graph? What is the N50 length?
 
 - Q3e. Repeat question 3d for k = 50 and k = 100. Make sure to report number of nodes, number of edges, minimum sequence length, maximum sequence length, and N50 sequence length.
+
+- Q3f. BONUS: What is the minimum value of k such that the compacted de Bruijn graph for S. aureus returns a single node? (Hint: use binary search)
 
 
 ### Expected Output for sample.fna
