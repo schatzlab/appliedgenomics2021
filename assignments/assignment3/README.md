@@ -78,29 +78,29 @@ Here are the answers that we expect when using sample.fna (instead of the Staphy
 | Out-Degree | # Nodes |
 |------------|---------|
 | 0          | 1       |
-| 1          | 98558   |
-| 2          | 571     |
-| 3          | 81      |
-| 4          | 8       |
+| 1          | 99182   |
+| 2          | 36      |
+| 3          | 0       |
+| 4          | 0       |
 
 
-| In-Degree | # Nodes |
+| Out-Degree | # Nodes |
 |------------|---------|
 | 0          | 1       |
-| 1          | 98558   |
-| 2          | 571     |
-| 3          | 81      |
-| 4          | 8       |
+| 1          | 99182   |
+| 2          | 36      |
+| 3          | 0       |
+| 4          | 0       |
 
-- 3c: Number of compactable edges = 98498.
+- 3c: Number of compactable edges = 99110.
 
 - 3d and 3e:
 
 | k   | Nodes | Edges | Min Length | Max Length | N50 |
 |-----|-------|-------|------------|------------|-----|
-| 25  | 721   | 756   |            |            |     |
-| 50  | 237   | 244   |            |            |     |
-| 100 | 28    | 29    |            |            |     |
+| 25  | 109   | 144   |            |            |     |
+| 50  | 25    | 32    |            |            |     |
+| 100 | 7     | 8     |            |            |     |
 
 
 
