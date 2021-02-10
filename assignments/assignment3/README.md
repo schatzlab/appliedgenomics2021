@@ -69,7 +69,7 @@ For this question, please make sure to include your code in your submission so t
 
 ### Expected Output for sample.fna
 
-Here are the answers that we expect when using sample.fna (instead of the Staphylococcus aureus reference genome) - please use this to verify the correctness of your code.
+Here are the answers that I got when using sample.fna (instead of the Staphylococcus aureus reference genome).
 
 - 3a: Number of nodes = 99219, Number of edges = 99254.
 
@@ -96,11 +96,11 @@ Here are the answers that we expect when using sample.fna (instead of the Staphy
 
 - 3d and 3e:
 
-| k   | Nodes | Edges | Min Length | Max Length | N50 |
-|-----|-------|-------|------------|------------|-----|
-| 25  | 109   | 144   |            |            |     |
-| 50  | 25    | 32    |            |            |     |
-| 100 | 7     | 8     |            |            |     |
+| k   | Nodes | Edges | Min Length | Max Length | N50    |
+|-----|-------|-------|------------|------------|--------|
+| 25  | 109   | 144   | 25         | 36562      | 16662  |
+| 50  | 25    | 32    | 53         | 41866      | 36587  |
+| 100 | 7     | 8     | 106        | 55547      | 55547  |
 
 
 
