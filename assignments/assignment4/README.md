@@ -57,7 +57,7 @@ For this question, we will be focusing on the de novo variants identified in thi
 [http://www.nature.com/articles/npjgenmed201627](http://www.nature.com/articles/npjgenmed201627)
 
 Download the de novo variant positions from here (Supplementary Table S4):<br>
-[http://www.nature.com/article-assets/npg/npjgenmed/2016/npjgenmed201627/extref/npjgenmed201627-s3.xlsx](http://www.nature.com/article-assets/npg/npjgenmed/2016/npjgenmed201627/extref/npjgenmed201627-s3.xlsx)
+[https://github.com/schatzlab/appliedgenomics2021/raw/master/assignments/assignment3/npjgenmed201627-s3.xlsx](https://github.com/schatzlab/appliedgenomics2021/raw/master/assignments/assignment3/npjgenmed201627-s3.xlsx)
 
 Download the gene annotation of the human genome here: <br>
 [ftp://ftp.ensembl.org/pub/release-87/gff3/homo_sapiens/Homo_sapiens.GRCh38.87.gff3.gz](ftp://ftp.ensembl.org/pub/release-87/gff3/homo_sapiens/Homo_sapiens.GRCh38.87.gff3.gz)
