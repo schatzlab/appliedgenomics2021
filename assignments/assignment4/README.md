@@ -1,4 +1,4 @@
-## Assignment 4: Coverage, Genome Assembly, and de Bruijn Graphs
+## Assignment 4: Variant Analysis and Mappability
 Assignment Date: Wednesday, Feb. 17, 2020 <br>
 Due Date: Wednesday, Mar. 3 , 2020 @ 11:59pm <br>
 
