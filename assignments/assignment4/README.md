@@ -23,7 +23,7 @@ As a reminder, any questions about the assignment should be posted to [Piazza](h
 
 - 1b. For each position in chromosome 22, count how many k-mers mapped (with mapq >= 20) to it. Make a histogram of the number of positions in chromosome 22 with a given number of k-mers mapping to them. Use k = 100, and the 100-mers you generated in 1a. [Hint: What is the maximum number of k-mers that can uniquely map to a single position? How many 100-mers can overlap one base in chromosome 22?]
 
-- 1c. Repeat the previous two questions for k = 25, 50 and 500. How does number of positions a k-mer maps to change with different k? How does the number of k-mers that uniquely map to a given position change? Provide plots for each value of k, as well as a couple of sentences discussing the effect of k on both.
+- 1c. Repeat the previous two questions for k = 25, 50 and 500. How does number of positions a k-mer maps to change with different k? How does the number of k-mers that map to a given position change? Provide plots for each value of k, as well as a couple of sentences discussing the effect of k on both.
 
 ### Question 2. Small Variant Analysis [10 pts]
 
@@ -72,7 +72,7 @@ Download the annotation of regulatory variants from here:<br>
 
 - 4c. How much of the genome is an annotated regulatory sequence (any type)? [Hint `bedtools merge`]
 
-- 4d. How much of the genome is neither gene nor regulatory sequences [Hint: `bedtools merge` + `bedtools subtract`]
+- 4d. How much of the genome is neither gene nor regulatory sequences? [Hint: `bedtools merge` + `bedtools subtract`]
 
 - 4e. Using the [UCSC liftover tool](https://genome.ucsc.edu/cgi-bin/hgLiftOver), how many of the variants can be successfully lifted over to hg38?
 
