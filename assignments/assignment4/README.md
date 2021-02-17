@@ -19,11 +19,11 @@ As a reminder, any questions about the assignment should be posted to [Piazza](h
 
 ### Question 1. Mappability Analysis [15 pts]
 
-- 1a. Using k = 100, extract every k-mer from chromosome 22, and align them back to chromosome 22 using bowtie2. How many 100-mers have just one mapping with mapq >= 20 (i.e. just one good match)? How many map with mapq >= 20 to multiple positions in the chromosome? Make a histogram of the number of k-mers that map to a given number of positions in the genome (x-axis = number of positions mapped to, y-axis = number of k-mers that map to this many positions).
+- 1a. Using k = 100, extract every k-mer from chromosome 22, and align them back to chromosome 22 using bowtie2. How many 100-mers are mapped back to the correct position (the place they were extracted from) with mapq >= 20? How many are mapped with mapq >= 20, but to an incorrect position?
 
-- 1b. For each position in chromosome 22, count how many k-mers mapped (with mapq >= 20) to it. Make a histogram of the number of positions in chromosome 22 with a given number of k-mers mapping to them. Use k = 100, and the 100-mers you generated in 1a. [Hint: What is the maximum number of k-mers that can uniquely map to a single position? How many 100-mers can overlap one base in chromosome 22?]
+- 1b. We consider k-mers that are mapped back to their correct position in the genome with mapq >= 20 to be uniquely mappable. For each position in chromosome 22, count how many uniquely mappable k-mers are mapped to it. Make a histogram of the number of positions in chromosome 22 with a given number of uniquely mappable k-mers overlapping them. Use k = 100, and the 100-mers you generated in 1a. [Hint: What is the maximum number of k-mers that can uniquely map to a single position? How many 100-mers can overlap one base in chromosome 22?]
 
-- 1c. Repeat the previous two questions for k = 25, 50 and 500. How does number of positions a k-mer maps to change with different k? How does the number of k-mers that map to a given position change? Provide plots for each value of k, as well as a couple of sentences discussing the effect of k on both.
+- 1c. Repeat the previous two questions for k = 25, 50 and 500, and discuss (in a couple of sentences) the effect of k on how many k-mers are uniquely mappable and on how many uniquely mappable k-mers overlap each position in the genome.
 
 ### Question 2. Small Variant Analysis [10 pts]
 
