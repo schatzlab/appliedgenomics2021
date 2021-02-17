@@ -75,7 +75,7 @@ Here are the answers that I got when using sample.fna (instead of the Staphyloco
 
 - 3b:
 
-| Out-Degree | # Nodes |
+| In-Degree | # Nodes |
 |------------|---------|
 | 0          | 1       |
 | 1          | 99182   |
