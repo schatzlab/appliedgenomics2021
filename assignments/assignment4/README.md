@@ -19,9 +19,9 @@ As a reminder, any questions about the assignment should be posted to [Piazza](h
 
 ### Question 1. Mappability Analysis [15 pts]
 
-- 1a. Using k = 100, extract every k-mer from chromosome 22, and align them back to chromosome 22 using bowtie2. How many 100-mers map uniquely (i.e. map to just one position) in chromosome 22? How many map to multiple positions? Make a histogram of the number of k-mers that map to a given number of positions in the genome (x-axis = number of positions mapped to, y-axis = number of k-mers that map to this many positions).
+- 1a. Using k = 100, extract every k-mer from chromosome 22, and align them back to chromosome 22 using bowtie2. How many 100-mers have just one mapping with mapq >= 20 (i.e. just one good match)? How many map with mapq >= 20 to multiple positions in the chromosome? Make a histogram of the number of k-mers that map to a given number of positions in the genome (x-axis = number of positions mapped to, y-axis = number of k-mers that map to this many positions).
 
-- 1b. For each position in chromosome 22, count how many k-mers uniquely mapped to it. Make a histogram of the number of positions in chromosome 22 with a given number of k-mers uniquely mapping to them. Use k = 100, and the 100-mers you generated in 1a. [Hint: What is the maximum number of k-mers that can uniquely map to a single position? How many 100-mers can overlap one base in chromosome 22?]
+- 1b. For each position in chromosome 22, count how many k-mers mapped (with mapq >= 20) to it. Make a histogram of the number of positions in chromosome 22 with a given number of k-mers mapping to them. Use k = 100, and the 100-mers you generated in 1a. [Hint: What is the maximum number of k-mers that can uniquely map to a single position? How many 100-mers can overlap one base in chromosome 22?]
 
 - 1c. Repeat the previous two questions for k = 25, 50 and 500. How does number of positions a k-mer maps to change with different k? How does the number of k-mers that uniquely map to a given position change? Provide plots for each value of k, as well as a couple of sentences discussing the effect of k on both.
 
