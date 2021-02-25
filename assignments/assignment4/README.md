@@ -23,7 +23,7 @@ As a reminder, any questions about the assignment should be posted to [Piazza](h
 
 - 1b. We consider k-mers that are mapped back to their correct position in the genome with mapq >= 20 to be uniquely mappable. For each position in chromosome 22, count how many uniquely mappable k-mers are mapped to it. Make a histogram of the number of positions in chromosome 22 with a given number of uniquely mappable k-mers overlapping them. Use k = 100, and the 100-mers you generated in 1a. [Hint: What is the maximum number of k-mers that can uniquely map to a single position? How many 100-mers can overlap one base in chromosome 22?]
 
-- 1c. Repeat the previous two questions for k = 25, 50 and 500, and discuss (in a couple of sentences) the effect of k on how many k-mers are uniquely mappable and on how many uniquely mappable k-mers overlap each position in the genome.
+- 1c. Repeat the previous two questions for k = 25, 50 and 200, and discuss (in a couple of sentences) the effect of k on how many k-mers are uniquely mappable and on how many uniquely mappable k-mers overlap each position in the genome.
 
 ### Question 2. Small Variant Analysis [10 pts]
 
