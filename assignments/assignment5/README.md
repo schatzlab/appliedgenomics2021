@@ -114,7 +114,7 @@ Question 4c. Do the same sampling experiment but sample 50000 rows each time. Ag
 Question 4d. Is the variance greater in (a), (b) or (c)? What is the relationship between mean abundance and variance? Why?
 
 
-#### Question 5. Differential Expression [10 pts]
+#### Question 5. Differential Expression [20 pts]
 
 Question 5a. Using the file from question 2 (data1.txt) along with [data2.txt](data2.txt), randomly sample 500 rows from each file. 
 Sample 5 times for each file (this emulates making experimental replicates) and conduct a paired t-test for 
