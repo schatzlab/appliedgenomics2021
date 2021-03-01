@@ -1,6 +1,6 @@
 ## Assignment 5: BWT and RNA-seq
-Assignment Date: Wednesday, Mar. 3, 2020 <br>
-Due Date: Wednesday, Mar. 17 , 2020 @ 11:59pm <br>
+Assignment Date: Wednesday, Mar. 3, 2021 <br>
+Due Date: Wednesday, Mar. 17 , 2021 @ 11:59pm <br>
 
 ### Assignment Overview
 
