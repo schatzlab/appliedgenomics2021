@@ -4,7 +4,7 @@ Due Date: Wednesday, Mar. 17 , 2020 @ 11:59pm <br>
 
 ### Assignment Overview
 
-In this assignment you will write a simple BWT encoder and decoder, visualize and explore expression data,  
+In this assignment you will write a simple BWT encoder and decoder and visualize and explore expression data and RNA-seq. 
 
 As a reminder, any questions about the assignment should be posted to [Piazza](https://piazza.com/class/kkbggatvarnj0).
 
