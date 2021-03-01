@@ -1,10 +1,12 @@
-## Assignment 5: BWT, Expression and RNA-seq
+## Assignment 5: BWT and RNA-seq
 Assignment Date: Wednesday, Mar. 3, 2020 <br>
 Due Date: Wednesday, Mar. 17 , 2020 @ 11:59pm <br>
 
 ### Assignment Overview
 
-In this assignment you will write a simple BWT encoder and decoder and visualize and explore expression data and RNA-seq. 
+In this assignment you will write a simple BWT encoder and decoder, and explore a couple of aspects of RNA-seq (with a small introduction to clustering). For this assignment, you will have to generate some visualizations - we recommend R or Python, but use a language you are comfortable with! 
+
+ **Make sure to show your work/code in your writeup!**
 
 As a reminder, any questions about the assignment should be posted to [Piazza](https://piazza.com/class/kkbggatvarnj0).
 
@@ -45,7 +47,7 @@ I_am_fully_convinced_that_species_are_not_immutable;_but_that_those_belonging_to
 
 In the language of your choice, implement a BWT decoder and decode the string below. 
 
-One of the essential properties of the BWT is that it can be decoded back into the source text without any other additional information. This is accomplished by iteratively applying the Last-First property starting with the first character of the BWT until reaching the end of string character `'$'`. The Last-First property states there is an equivalence between the ith occurrence of a character in the first column and the ith occurrence of that character in the last column. This equivalence can be evaluated by counting how many occurrences of a character are present in the BWT string (the last column of the BWM) or by counting characters in the first column (which you will have to determine from the BWT itself). Again, faster methods exist (the FM-index) to determine the rank of each character but you can just count it explicitly here
+One of the essential properties of the BWT is that it can be decoded back into the source text without any other additional information. This is accomplished by iteratively applying the Last-First property starting with the first character of the BWT until reaching the end of string character `'$'`. The Last-First property states there is an equivalence between the ith occurrence of a character in the first column and the ith occurrence of that character in the last column. This equivalence can be evaluated by counting how many occurrences of a character are present in the BWT string (the last column of the BWM) or by counting characters in the first column (which you will have to determine from the BWT itself). Again, faster methods exist (the FM-index) to determine the rank of each character but you can just count it explicitly here.
 
 The pseudocode for decoding the string is as follows:
 
@@ -84,9 +86,9 @@ and how did you determine this? What is the background expression level (numeric
 
 - Question 3c. Create a heatmap of the expression matrix. Order the genes by cluster, but keep the time points in numerical order.
 
-- Question 3d. Visualize the expression data using t-SNE
+- Question 3d. Visualize the expression data using t-SNE.
 
-- Question 3e. Using the same data, visualize the expression data using UMAP
+- Question 3e. Using the same data, visualize the expression data using UMAP.
 
 - Question 3f. In a few sentences, compare and contrast the (1) heatmap, (2) PCA, (3) t-SNE and (4) UMAP results. Be sure to comment on understandability, relative positioning of clusters,
   runtime, and any other significant factors that you see.
