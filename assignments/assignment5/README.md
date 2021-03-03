@@ -116,7 +116,7 @@ Question 4d. Is the variance greater in (a), (b) or (c)? What is the relationshi
 
 #### Question 5. Differential Expression [20 pts]
 
-Question 5a. Using the file from question 2 (data1.txt) along with [data2.txt](data2.txt), randomly sample 500 rows from each file. 
+Question 5a. Using the file from question 4 (data1.txt) along with [data2.txt](data2.txt), randomly sample 500 rows from each file. 
 Sample 5 times for each file (this emulates making experimental replicates) and conduct a paired t-test for 
 differential expression of each of the 15 genes. Which genes are significantly differentially expressed at the 0.05 level and what is their mean fold change?
 
