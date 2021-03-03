@@ -102,7 +102,7 @@ Therefore your RNAseq experiment will be a small sampling of the full compositio
 sample of the total population, but if your sample is very unlucky or biased it may not represent the true distribution. We will explore
 this concept by sampling a small subset of transcripts (500 to 50000) out of a much larger set (1M) so that you can evaluate this bias.
 
-In [data1.txt](data1.txt) with 1,000,000 lines we provide an abstraction of RNA-seq data where normalization has been performed and 
+In [data1.txt](data1.txt) with 100,000 lines we provide an abstraction of RNA-seq data where normalization has been performed and 
 the number of times a gene name occurs corresponds to the number of transcripts in the sample.
 
 Question 4a. Randomly sample 500 rows. Do this simulation 10 times and record the relative abundance of each of the 15 genes. Make a scatterplot the mean vs. variance of each gene (x-axis=mean of gene_i, y-axis=variance of gene_i)
