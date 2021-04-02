@@ -1,6 +1,6 @@
 ## Preliminary Project Report
 Assignment Date: March 24, 2021 <br>
-Due Date: Monday, April 7, 2021 @ 11:59pm <br>
+Due Date: Wednesday, April 7, 2021 @ 11:59pm <br>
 
 Each team should submit a PDF of your preliminary project proposal (2 to 3 pages) to [GradeScope](https://www.gradescope.com/courses/236625) by 11:59pm on Wednesday April 7.
 
