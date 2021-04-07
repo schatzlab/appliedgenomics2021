@@ -1,8 +1,8 @@
 ## Preliminary Project Report
 Assignment Date: March 24, 2021 <br>
-Due Date: Monday, April 7, 2021 @ 11:59pm <br>
+Due Date: Wednesday, April 7, 2021 @ 11:59pm <br>
 
-Each team should submit a PDF of your preliminary project proposal (2 to 3 pages) to GradeScope by 11:59pm on Wednesday April 7.
+Each team should submit a PDF of your preliminary project proposal (2 to 3 pages) to [GradeScope](https://www.gradescope.com/courses/236625) by 11:59pm on Wednesday April 7.
 
 The preliminary report should have at least:
 - Title of your project
@@ -11,7 +11,7 @@ The preliminary report should have at least:
 - 1+ paragraph of Introduction
 - 1+ paragraph of Methods that you are using
 - 1+ paragraph of Results, describing the data evaluated and any any preliminary results
-- 1+ paragraph of Dicsussion (what you have seen or expect to see)
+- 1+ paragraph of Discussion (what you have seen or expect to see)
 - 1+ figure showing a preliminary result
 - 5+ References to relevant papers and data
 
