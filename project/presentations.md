@@ -23,6 +23,7 @@ Wed Apr 28 | 1:30-1:45 | Team Malamutes	|	Beril Erdogdu, Yuchen Ge	|	Calling gen
 Wed Apr 28 | 1:45-2:00 | Team Bohao	|	Bohao Tang	|	Robustness of Single Cell Pseudo-time Reconstruction Methods
 Wed Apr 28 | 2:00-2:15 | Team Yash	|	Yash Sonthalia	|	Applying ML classification models to accurately predict cell-type among datasets using expression data from single-cell RNA seq experiments
 Wed Apr 28 | 2:15-2:30 | Team Maddy	|	Maddy Scott	|	Entropy of DNA
+Wed Apr 28 | 2:30-2:45 | Team Kathleen | Kathleen Newcomer | Genomic Vis
 <br>
 <br>
 
