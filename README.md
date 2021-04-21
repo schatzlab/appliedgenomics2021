@@ -65,9 +65,9 @@ We will study the leading computational and quantitative approaches for comparin
 |22. | Mo 4/12 | Microbiome and Metagenomics | * [Kraken: ultrafast metagenomic sequence classification using exact alignments (Wood and Salzberg, 2014, Genome Biology)](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-3-r46) <br> * [Chapter 12: Human Microbiome Analysis (Morgan and Huttenhower)](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002808) | 
 |* | We 4/14 | Spring Break! | |
 |23. | Mo 4/19 | Genomic Futures | * ["Snyderome" Personal Omics Profiling Reveals Dynamic Molecular and Medical Phenotypes (Chen et al, 2012, Cell)](http://www.sciencedirect.com/science/article/pii/S0092867412001663) <br> * [Identifying Personal Genomes by Surname Inference (Gymrek et al, 2013, Science)](http://science.sciencemag.org/content/339/6117/321) | [Project Report](https://github.com/schatzlab/appliedgenomics2021/blob/master/project/finalreport.md)
-|24. | We 4/21 | Project Presentations | | 
-|25. | Mo 4/26 | Project Presentations | | 
-|26. | We 4/28 | Project Presentations | | 
+|24. | We 4/21 | [Project Presentations](https://github.com/schatzlab/appliedgenomics2021/blob/master/project/presentations.md) | | 
+|25. | Mo 4/26 | [Project Presentations](https://github.com/schatzlab/appliedgenomics2021/blob/master/project/presentations.md) | | 
+|26. | We 4/28 | [Project Presentations](https://github.com/schatzlab/appliedgenomics2021/blob/master/project/presentations.md) | | 
 | | Wed 5/12 | [Final Project Report Due!](https://github.com/schatzlab/appliedgenomics2021/blob/master/project/finalreport.md)| | 
 
 
